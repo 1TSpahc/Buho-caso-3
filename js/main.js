@@ -152,31 +152,31 @@
       }
     }
 
-    checkWidth();
-    $(window).resize(checkWidth);
+    // checkWidth();
+    // $(window).resize(checkWidth);
 
-    // mega menu slider
-    // $('#mega_page_slider').carousel({
-    //   interval: 2000,
+    // // mega menu slider
+    // // $('#mega_page_slider').carousel({
+    // //   interval: 2000,
+    // // });
+
+    // var mySwiper = new Swiper('.mega_menu_slide', {
+    //   direction: 'horizontal',
+    //   slidesPerView: 1,
+    //   loop: true,
+    //   centeredSlides: false,
+    //   autoplay: {
+    //     delay: 2000,
+    //     disableOnInteraction: false,
+    //   },
+    //   autoplay: {
+    //     delay: 5000,
+    //   },
+    //   navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    //   }
     // });
-
-    var mySwiper = new Swiper('.mega_menu_slide', {
-      direction: 'horizontal',
-      slidesPerView: 1,
-      loop: true,
-      centeredSlides: false,
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
-      },
-      autoplay: {
-        delay: 5000,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      }
-    });
 
     // Pricing Dropdown        
     if (document.getElementById("chose_plan") != null) {
