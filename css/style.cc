@@ -3349,7 +3349,8 @@ footer.creative_clean {
   transition: all 0.3s ease-in-out;
   top: 0;
   z-index: 1;
-  position: relative; }
+  position: relative;
+   }
   .single_feature_item h3 {
     color: #304e73;
     font-size: 24px;
